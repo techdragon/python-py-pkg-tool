@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/py_pkg_tool
+   */site-packages/py_pkg_tool
+
+[run]
+branch = true
+source =
+    py_pkg_tool
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
